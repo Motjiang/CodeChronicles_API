@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChronicles_API", "CodeChronicles_API\CodeChronicles_API.csproj", "{5F5476D7-B8D6-4E7B-BC40-87D8A942B61B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code_C_UnitTests", "Code_C_UnitTests\Code_C_UnitTests.csproj", "{D1E67C16-2412-4B30-AD7B-BC165710EDA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F5476D7-B8D6-4E7B-BC40-87D8A942B61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5476D7-B8D6-4E7B-BC40-87D8A942B61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5476D7-B8D6-4E7B-BC40-87D8A942B61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5476D7-B8D6-4E7B-BC40-87D8A942B61B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E67C16-2412-4B30-AD7B-BC165710EDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E67C16-2412-4B30-AD7B-BC165710EDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E67C16-2412-4B30-AD7B-BC165710EDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E67C16-2412-4B30-AD7B-BC165710EDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C14EF119-F4B5-4FE5-A92F-3A129C56861B}
+	EndGlobalSection
+EndGlobal
