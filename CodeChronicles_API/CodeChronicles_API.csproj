@@ -19,6 +19,11 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Models\Domain\" />
+    <Folder Include="Models\DTO\" />
+    <Folder Include="Repositories\Interface\" />
+    <Folder Include="Repositories\Implementation\" />
   </ItemGroup>
 
 </Project>
