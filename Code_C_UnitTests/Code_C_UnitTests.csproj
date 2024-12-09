@@ -30,4 +30,8 @@
     <Folder Include="Repository\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CodeChronicles_API\CodeChronicles_API.csproj" />
+  </ItemGroup>
+
 </Project>
