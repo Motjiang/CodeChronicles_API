@@ -38,7 +38,7 @@ namespace CodeChronicles_API.Repositories.Implementation
         public async Task<IEnumerable<Category>> GetAllAsync() => await _context.Categories.ToListAsync();
 
 
-        public async Task<Category> GetByIdAsync(int id) => await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+        public async Task<Category> GetByIdAsync(int id) => await _context!.Categories!.FirstOrDefaultAsync(c => c.Id == id);
 
 
         public async Task<bool> UpdateAsync(Category category)
